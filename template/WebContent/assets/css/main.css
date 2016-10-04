@@ -10,7 +10,7 @@
 /* Reset */
 
 element.style{
-	padding-top: 100px;
+	padding-top: 50px;
     opacity: 1;
     color: black;
 }
@@ -1110,8 +1110,8 @@ h5{
 		display: inline-block;
 		color: #ffffff;
 		width: 1em;
-		height: 1em;				/* 아이콘들 위치 */
-		line-height: 0.9em;			/* 아이콘들 위치(상하) */
+		height: 2em;				/* 아이콘들 위치 */
+		line-height: 3em;			/* 아이콘들 위치(상하) */   /* 초기값 0.9 */
 	}
 
 		#nav a.icon:before {
@@ -1291,7 +1291,7 @@ h5{
 
 				#nav a {
 					font-size: 2.5em;
-					margin: 0 0.25em 0 0.25em;		/* 아이콘 좌우 간격 */
+					margin: 0 0.75em 0 0.75em;		/* 아이콘 좌우 간격 */ /* 초기값 0.25 */
 					opacity: 0.35;
 					outline: 0;
 					-moz-transition: opacity .25s ease-in-out;
@@ -1309,8 +1309,8 @@ h5{
 						display: block;
 						position: absolute;
 						left: 50%;						/* 건들지 말기 그냥 */
-						bottom: -1em;				/* 세모 절대위치(상하) */
-						margin-left: -0.5em; 			/* 세모 절대위치(좌우) */
+						bottom: -1.2em;				/* 세모 절대위치(상하) */
+						margin-left: -0.43em; 			/* 세모 절대위치(좌우) */
 						border-bottom: solid 0em #ffffff;	/* 비 선택시 세모(안건드려도디) */
 						border-left: solid 0.5em transparent;
 						border-right: solid 0.5em transparent;		/* 실제 페이지와 아이콘 이어주는 세모 좌우크기 */
@@ -1364,7 +1364,7 @@ h5{
 					}
 
 						#nav a.active:after {
-							border-bottom-width: 1em; /* 세모 상하크기 */
+							border-bottom-width: 0.5em; /* 세모 상하크기 */
 						}
 
 		/* Panels */
