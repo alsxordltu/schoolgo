@@ -1325,11 +1325,11 @@ h5{
 						position: absolute;
 						background: #222222;
 						color: #ffffff;
-						top: -2.75em;			/* 아이콘위에마우스올리면나타나는 것과 아이콘과의 간격 */
-						font-size: 0.3em;	    /* 아이콘위에마우스올리면나타나는 글씨크기 */
+						top: -0.5em;			/* 아이콘위에마우스올리면나타나는 것과 아이콘과의 간격 */
+						font-size: 0.4em;	    /* 아이콘위에마우스올리면나타나는 글씨크기 */
 						height: 2em;		    /* 아이콘위에마우스올리면나타나는 글씨칸크기 (상하)*/
-						line-height: 2.25em;    /* 아이콘위에마우스올리면나타나는 글씨의상하위치 */
-						left: 50%;
+						line-height: 2.0em;    /* 아이콘위에마우스올리면나타나는 글씨의상하위치 */
+						left: 60%;
 						opacity: 0;
 						-moz-transition: opacity .25s ease-in-out;
 						-webkit-transition: opacity .25s ease-in-out;
